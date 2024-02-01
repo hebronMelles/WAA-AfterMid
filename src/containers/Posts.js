@@ -4,10 +4,12 @@ const Posts = (props) => {
   const post = props.postState.map((x) => {
     return (
       <>
-        <div class="d-flex flex-column mb-3">
-          <div class="p-2">id : {x.id}</div>
-          <div class="p-2">title : {x.tittle}</div>
-          <div class="p-2">author : {x.author}</div>
+        <div class="user-select-all">
+          <div className="d-flex flex-column mb-4">
+            <div class="p-2">id : {x.id}</div>
+            <div class="p-2">title : {x.title}</div>
+            <div class="p-2">author : {x.author}</div>
+          </div>
         </div>
       </>
     );

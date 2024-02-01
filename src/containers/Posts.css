@@ -1,7 +1,15 @@
 /* Posts.css */
 .mb-4 {
-    margin-bottom: 1rem;
-  }
+  margin-bottom: 1rem;
+ 
+}
+.border{
+  border: 10px solid #df1212; 
+  padding: 10px; 
+
+}
+
+.Postd{
   
-  /* Add more styles as needed */
-  
+}
+
